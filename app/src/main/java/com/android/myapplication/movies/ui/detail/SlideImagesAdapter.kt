@@ -57,9 +57,9 @@ class SlideImagesAdapter(val photos: ArrayList<Photo>) :
 
     override fun getItemCount() = photos.size
     fun updatePhotos(data: List<Photo>?) {
-        if (photos.size > 0) {
-            photos.clear()
-        }
+//        if (photos.size > 0) {
+//            photos.clear()
+//        }
         data?.let { photos.addAll(data) }
         notifyDataSetChanged()
     }

@@ -19,7 +19,9 @@
     <style name="Movie.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
         <item name="android:textColor">@color/secondaryTextColor</item>
     </style>
-
+    <style name="MyAlertDialogStyle" parent="AppTheme">
+        <item name="colorAccent">@color/primaryColor</item>
+    </style>
     <style name="TextAppearance.Movies.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5" >
         <item name="android:textColor">?attr/colorOnSurface</item>
     </style>
